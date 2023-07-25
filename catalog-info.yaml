@@ -36,6 +36,7 @@ spec:
     email: infrastructure@example.com
     picture: https://training.zenika.com/_nuxt/img/zenika_logo_horizontal_black.a41f832.png
   parent: zenika
+  children: []
   members: [gouz]
 ---
 apiVersion: backstage.io/v1alpha1
@@ -50,6 +51,7 @@ spec:
     email: infrastructure@example.com
     picture: https://training.zenika.com/_nuxt/img/zenika_logo_horizontal_black.a41f832.png
   parent: zenika
+  children: []
   members: [gouz]
 ---
 apiVersion: backstage.io/v1alpha1
