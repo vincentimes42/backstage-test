@@ -10,7 +10,7 @@ metadata:
   annotations:
     backstage.io/adr-location: adrs
 spec:
-  type: website
+  type: service
   owner: group:zenika
   lifecycle: experimental
   providesApis:
