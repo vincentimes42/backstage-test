@@ -13,6 +13,8 @@ spec:
   type: website
   owner: group:zenika
   lifecycle: experimental
+  providesApis:
+    - petstore-api
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
@@ -68,3 +70,14 @@ spec:
     email: jenny-doe@example.com
     picture: https://sylvain.gougouzian.fr/me.jpg
   memberOf: [g-squad, zenika]
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: petstore-api
+spec:
+  type: openapi
+  lifecycle: production
+  owner: zenika
+  definition:
+    $text: https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v2.0/json/petstore.json
