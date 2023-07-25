@@ -3,6 +3,10 @@ kind: Component
 metadata:
   name: gouz
   description: An example of a Backstage application.
+  links:
+    - url: https://gouz.dev
+      title: My website
+      icon: dashboard
   annotations:
     backstage.io/adr-location: adrs
 spec:
