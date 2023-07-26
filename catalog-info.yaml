@@ -9,6 +9,7 @@ metadata:
       icon: dashboard
   annotations:
     backstage.io/adr-location: adrs
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: group:zenika
