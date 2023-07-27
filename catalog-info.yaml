@@ -10,6 +10,7 @@ metadata:
   annotations:
     backstage.io/adr-location: adrs
     backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: value
 spec:
   type: service
   owner: group:zenika
