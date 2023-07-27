@@ -22,7 +22,7 @@ jobs:
         id: slug
         with:
           # replace value in "to-slug" this on your choice
-          backstage-test: Hello ${{ github.actor }}! How are you?
+          to-slug: backstage-test
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
