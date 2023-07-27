@@ -37,6 +37,8 @@ kind: Group
 metadata:
   name: g-squad
   description: A task force team
+  annotations:
+    github.com/team-slug: Zenika/zenika-lille
 spec:
   type: business-unit
   profile:
@@ -66,6 +68,8 @@ apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
   name: gouz
+  annotations:
+    github.com/user-login: gouz
 spec:
   profile:
     displayName: Sylvain Gougouzian
